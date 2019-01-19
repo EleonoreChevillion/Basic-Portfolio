@@ -1,0 +1,134 @@
+
+#title {
+    margin: auto;
+    color: white;
+    font-size: xx-large;
+}
+
+.name{
+  background-color: rgb(160, 161, 161);
+  width: 30%;
+  height: 100%;
+  margin-left: 230px;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  text-align: center; 
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 100%;
+  }
+
+  body {
+    font-family: 'Thasadith', sans-serif;
+      background-image: url(../images/background2.png);
+      background-color: transparent;
+      margin-left: 5px;
+      margin-right: 5px;
+      height: 100%;
+  }
+  
+  .tab button {
+    color: #ccc;  
+    background-color: rgb(97, 96, 96);
+    float: right;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  .tab button:hover {
+    background-color: rgb(141, 93, 127);
+  }
+  
+  .tab button.active {
+    background-color:darkcyan;
+  }
+  .blocktext {
+    margin-right: 10px;
+    width: 70%;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: none;
+    position: relative;
+    left: 120px;
+  }
+
+.whiteback {
+    background-color: white;
+    padding: 0px 100px 500px 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: top;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: darkcyan;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: darkcyan;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-right: 50px;
+  width: 70%;
+}
+img {
+  width: 200px;
+  position: absolute;
+  left: -220px;
+  border: 10px solid transparent;
+  border-image: url(background2.png) 30 round;
+}
+#About {
+  margin-left: 5px;
+}
+footer {
+    background-color: darkgray;
+    clear: both;
+    position: relative;
+    height: 40px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: darkcyan;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-width: 5px;
+}
+

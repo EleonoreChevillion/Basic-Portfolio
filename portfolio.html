@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<link rel="stylesheet" href="assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
+<script src="assets/javascript/javascript.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <title> Student Bio</title>
+    <div class="name">
+        <p id="title"> Eleonore Chevillion </p>
+    </div>
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+        <button class="tablinks" onclick="openTab(event, 'Portfolio')">Portfolio</button>
+        <button class="tablinks" onclick="openTab(event, 'About')">About</button>
+    </div>
+
+    <div class="whiteback">
+        <div id="Contact" class="tabcontent">
+            <div class="container">
+                <form action="action_page.php">
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="email">Email
+                        <input type="text" id="email" name="email" placeholder="Your email..">
+
+                        <label for="message">Message</label>
+                        <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+
+                </form>
+            </div>
+        </div>
+
+        <div id="Portfolio" class="tabcontent">
+            <h2>My Portfolio</h2>
+            <ul>
+                <li>blablabla</li>
+                <li>blablabla</li>
+                <li>blablabla</li>
+            </ul>
+        </div>
+
+        <div id="About" class="tabcontent">
+            <img src="assets/images/photofb2.jpg" alt="photodemoi">
+            <h2>A little bit about myself</h2>
+            <p class="blocktext"> My name is Eleonore Chevillion.
+                I am 25 and I was born in Paris (the most beautiful city in the world !) <br>
+                Two years ago, after finishing my master, litteraly 10 days after my last class, I decided to move to
+                New York for a new adventure !
+                I had never been to the City before and was, honestly, terrified. Everything was giagantic, fast, loud
+                and awfully smelly (New York summer).
+                After working in the furniture industry as a Commercial Coordinator I decided to take up a new
+                challenge, and learn how to code.
+                I have always been fascinated by technology and really wanted to understand how programming actually
+                worked.
+                I would also love to start my own business in a few years, and knowing how to code will be a key skill.
+            </p>
+        </div>
+
+    </div>
+    <footer>
+        <p>Contact information: <a href="el.chevillion@gmail.com" target="_blank">
+                el.chevillion@gmail.com</a> <br> GitHub: <a href="https://github.com/EleonoreChevillion" target="_blank">
+                github.com/EleonoreChevillion</a></p>
+    </footer>
+
+</body>
+
+</html>
