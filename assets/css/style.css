@@ -33,6 +33,34 @@
       height: 100%;
   }
   
+  .futurewebsite {
+      float: left;
+      margin: 10px;
+      height: 150px;
+      width: 140px;
+  }
+  #dog1 {
+    width: 150px;
+    margin-left: 0px;
+}
+#dog2{
+    width: 150px;
+}
+#portfoliotext1{
+    position: absolute;
+    top: 230px;
+    left: 60px;
+}
+#portfoliotext2{
+    position: absolute;
+    top: 230px;
+    left: 225px;
+}
+#portfoliotext3{
+    position: absolute;
+    top: 230px;
+    left: 390px;
+}
   .tab button {
     color: #ccc;  
     background-color: rgb(97, 96, 96);
@@ -106,7 +134,7 @@ input[type=submit]:hover {
   margin-right: 50px;
   width: 70%;
 }
-img {
+#picofmyself {
   width: 200px;
   position: absolute;
   left: -220px;
