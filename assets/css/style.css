@@ -139,7 +139,7 @@ input[type=submit]:hover {
   position: absolute;
   left: -220px;
   border: 10px solid transparent;
-  border-image: url(background2.png) 30 round;
+  border-image: url(../images/background2.png) 30 round;
 }
 #About {
   margin-left: 5px;
